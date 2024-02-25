@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.container {
+    background-color: dodgerblue;
+    height: 20000px;
+    padding: 30px;
+    color: rgb(17, 131, 207);
+    font-size: 30px;
+    font-weight: 900;
+    font-family: cursive;
+    border-color: black;
+    border-width: 5px;
+    border-top-style: dotted;
+    border-bottom-style: double;
+    border-right-style: ridge;
+    border-left-style: solid;
+    box-sizing: border-box;
+    box-shadow: black;
+    z-index: -1;
+    
+}
+
+.container:hover {
+    background-color: blueviolet;
+    color: rgb(245, 252, 245);
+    z-index: -1;
+}
+    
+.row{
+    color: white;
+    font-size: 25px;
+    text-align: start;
+    padding: 1px;
+    text-align: center;
+    z-index: 1;
+    
+}
+
+.row1 {
+    background-color: brown;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+
+}
+.row1:hover {
+    background-color: black;
+}
+
+.row2 {
+    background-color: rgb(233, 11, 233);
+    position: sticky;
+    z-index: 2;
+}
+.row2:hover {
+    background-color: black;
+}
+
+.row3 {
+    background-color: rgba(255, 0, 0, 0.986);
+    text-align: left;
+    z-index: 3;
+    .newyear {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        z-index: 0;
+      }
+}
+.row3:hover {
+    background-color: black;
+}
+
+.row4 { 
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-color: navy;
+    z-index: 2;
+    }
+    .Stars {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        width: 250px;
+    }
+
+.row4:hover {
+    background-color: black;
+}
+
+.row5 {
+    background-color: rgb(15, 136, 21);
+}
+.row5:hover {
+    background-color: black;
+}
+

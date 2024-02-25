@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 750px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(212, 242, 221);
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+.esymbol {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 5px;
+    margin-left: 17px;
+    margin-top: 27px;
+}
+
+.tutorial > img{
+
+    width: 50px;
+    padding: 5px;
+    margin-left: 17px;
+    margin-top: 17px;
+    
+}
+
+.tutorial >b{
+color: #030479;
+font-size: 20px;
+font-family: "ARIAL";
+position: absolute;
+top: 35px;
+margin-left: 5px;
+letter-spacing: 15px;
+}
+
+h1 {
+    color: #030479;
+    width: 300px;
+    position: absolute;
+    top: 600px;
+    left: 35px;
+    font-size: 50px;
+    word-spacing: 10px;
+}
+
+.grid {
+    position: absolute;
+    right: 45px;
+    top: 70px;
+    width: 250px;
+   
+}
+
+.arc {
+    position: absolute;
+    top: 95px;
+    left: 635px;
+    background-color: transparent;
+
+}
+
+.designbox {
+    position: absolute;
+    left: 1042px;
+    top: 25px;
+}
+
+.weblogo {
+    position: absolute;
+    top: 360px;
+    size-adjust: 300%;
+    left: 770px;
+
+}
+
+.box {
+    position: absolute;
+    top: 375px;
+    size-adjust: 300%;
+    left: 970px;
+}
+
+.arrow {
+    position: absolute;
+    top: 150px;
+    left: 1050px;
+    background-color:transparent;
+    /* width: 10%;
+    height: 5%; */
+    transform: rotate(315deg);
+    }
+
+.heading2 {
+    position: absolute;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    font-size: xx-large;
+    color: rgb(3, 3, 92);
+    font-size: 3em;
+    top: 450px;
+    left: 50px;
+
+}
+
+.trapezoid {
+	border-bottom: 50px solid #0d3d1c;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 150px;
+    position: absolute;
+    top: 20px;
+    right: 33px;
+}
+
+.square {
+    height: 150px;
+    width: 220px;
+    background-color: #f5efef;
+    border-color: black;
+    border: 1px solid;
+    position: absolute;
+    right: 3px;
+    top: 70px;
+    text-align: center center;
+    font: bolder;
+    font-family: cursive;
+    
+}
