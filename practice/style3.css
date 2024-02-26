@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background-color: #8ae981;
+    width: 90vw;
+    height: 90vh;
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    margin-top: 1px;
+    /* text-align: center; */
+    font-family: arial;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.tutorial > img{
+
+    width: 40px;
+    padding: 5px;
+    margin-left: 17px;
+    margin-top: 17px;
+    
+}
+
+.tutorial >b{
+color: #030479;
+font-size: 20px;
+font-weight: normal;
+font-family: "arial";
+position: absolute;
+top: 25px;
+margin-left: 5px;
+letter-spacing: 10px;
+}
+
+.h1{
+    color: #030479;
+    width: 300px;
+    position: absolute;
+    bottom: 35;
+    left: 35;
+    font-size: 50px;
+    word-spacing: 10px;
+   
+}
+
+.grid{
+
+    width: 250px;
+    position: absolute;
+    top: 70;
+    right: 65;
+}
+
+    .trapezoid {
+        border-bottom: 50px solid #0d3d1c;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        height: 0;
+        width: 150px;
+        position: absolute;
+        top: 20px;
+        right: 33px;
+    }
+
+    .designbox {
+        height: 150px;
+        width: 220px;
+        background-color: #f5efef;
+        border-color: black;
+        border: 1px solid;
+        position: absolute;
+        right: 3px;
+        top: 70px;
+        text-align: center center;
+        font: bolder;
+        font-family: cursive;
+    }
+
+    
+
+    .cursor{
+        width: 100px;
+        position: absolute;
+        top: 150;
+        right: 20;
+        transform: rotate(300deg);
+    }
+
+
+
+    .tutorial {
+        color: #030479;
+        font-size: 20px;
+        font-family: "arial";
+        position: absolute;
+        top: 35;
+        margin-left: 5px;
+        letter-spacing: 10px;
+    }
