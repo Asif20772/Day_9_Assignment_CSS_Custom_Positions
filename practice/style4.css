@@ -4,6 +4,7 @@
     background-color: rgb(212, 242, 221);
     width: 80vw;
     height: 60vh;
+    z-index: -1;
 }
 img {
     position: absolute;
@@ -19,6 +20,7 @@ img {
     position: absolute;
     right: 20px;
     top: 20px;
+    z-index: 1;
 
 }
 
@@ -47,7 +49,8 @@ h1 {
     top: 20px;
     width: 40vw;
     height: 40vh;
-    
+    z-index: 0
+       
     }
 
 .arc {
@@ -56,6 +59,7 @@ h1 {
     top: 83px;
     width: 30vw;
     height: 15vh;
+    z-index: 2;
 
 }
 
@@ -65,5 +69,57 @@ h1 {
     right: 47px;
     width: 20vw;
     height: 25vh;
+    z-index: 2;
+
+
+}
+
+.cursor {
+    position: absolute;
+    width: 18vw;
+    height: 18vh;
+    top: 95px;
+    right: 5px;
+    transform: rotate(300deg);
+    z-index: 2;
+}
+
+.globe {
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    top: 200px;
+    left: 220px;
+    z-index: 2;
+
+}
+
+.square {
+    height: 15vh;
+    width: 15vw;
+    background-color: antiquewhite;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    font-family: cursive;
+    text-decoration: wavy;
+    font-size: 20px;
+    font-style: oblique;
+    font-stretch: expanded;
+    text-align: center;
+    /* align-content: center center; */
+
+    
+}
+
+.trapezoid {
+    border-bottom: 20px solid hsl(133, 88%, 10%);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    height: 0px;
+    width: 50px;
+    position: absolute;
+    top: 8px;
+    right: 45px;
 
 }

@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(179, 247, 209);
+    position: relative;
+    width: 950px;
+    height: 600px;
+    padding: 5px;
+    margin-left: 20px;
+    top: 30px;
+}
+
+.item {
+    color: rgb(5, 5, 114);
+    position: absolute;
+    margin-left: 10px;
+    
+}
+
+.Esymbol {
+    height: 30px;
+    width: 30px;
+    background-color: #20067e;
+    border-radius: 50%;
+    top: 20px;
+    left: 10px;
+}
+
+.Esymbol >img {
+    width: 15px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 9px;
+    border-color: #20067e;
+    
+}
+
+.tutorial {
+    font-family: calibri;
+    font-size: 22px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin-top: 18px;
+    margin-left: 60px;
+
+}
+
+.grid >img{
+    width: 450px;
+    height: 350px;
+   }
+
+.grid {
+    top: 70px;
+    right: 60px;
+    
+}
+
+.arc {
+    top: 95px;
+    right: 200px;
+}
+.arc img{
+    width: 75%;
+    height: 90%;
+}
+
+.trapezoid {
+    right: 62px;
+    top:25px;
+    border-bottom: 20px solid #04310f;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 0;
+	width: 90px;
+}
+.square {
+    right: 29px;
+    top: 40px;
+    border: 1px solid black;
+    /* text-decoration: wavy; */
+    height: 130px;
+    width: 160px;
+    background-color: wheat;
+}
+.square >b {
+    font-family: cursive;
+}
+
+.cursor >img{
+        width: 132px;
+        height: 138px;
+}
+    
+.cursor {
+        top: 190px;
+        right: 5px;
+        transform: rotate(313deg);
+}
+
+.globe >img{
+    width: 125px;
+    height: 120px;
+}
+
+.globe {
+    top: 265px;
+    right: 435px;
+}
+
+.box {
+    right: 110px;
+    top: 310px;
+}
+.box >img {
+    width: 218px;
+
+}
+
+h1 {
+    position: absolute;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    color: #20067e;
+    width: 300px;
+    top: 300px;
+    
+
+}
